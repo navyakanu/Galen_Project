@@ -1,0 +1,4 @@
+
+Homepage in local Chrome browser
+    selenium chrome http://localhost:5000/price  640x480
+        check GalenSpecExample.gspec
