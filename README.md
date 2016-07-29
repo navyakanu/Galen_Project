@@ -1,4 +1,4 @@
-### Running the application http://localhost:5000 in Google Chrome
+### Test www.google.com in Google Chrome using Galen (Image Comparision)
 
 
 Steps while executing the project 
