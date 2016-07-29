@@ -1,0 +1,8 @@
+@objects
+    page id app
+
+= Main section =
+     @on desktop
+         page:
+           image file screenshots/app/page.png
+
