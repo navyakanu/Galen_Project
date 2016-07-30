@@ -1,8 +1,8 @@
 @objects
-    page id app
+    signinpage id gb_70
 
 = Main section =
      @on desktop
-         page:
-           image file screenshots/pagedump.png
+         signinpage:
+           image file screenshots/objects/page.png
 

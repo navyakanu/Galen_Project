@@ -1,8 +1,8 @@
 @objects
-    page id app
+    pagesigninbutton id gb_70
 
 = Main section =
      @on desktop
-         page:
+         pagesigninbutton:
            image file screenshots/page.png
 

@@ -2,7 +2,7 @@
 
 beforeTest(function(){
 
-	 var driver = createDriver("http://www.gmail.com",
+	 var driver = createDriver("http://www.google.com",
                             "1280x800","chrome");
 	 session.put("driver",driver);
 
@@ -25,8 +25,7 @@ var file=takeScreenshot(driver)
 
 checkLayout({
     driver: driver,
-    spec: "specs/AppPageValidate.gspec",
-   	screenshot:"screenshots/page.png"
+    spec: "specs/AppPageValidate.gspec"
 });	
 
 

@@ -1,7 +1,7 @@
 
 beforeTest(function(){
 
-     var driver = createDriver("http://www.gmail.com",
+     var driver = createDriver("http://www.google.com",
                             "1280x800","chrome");
      session.put("driver",driver);
 
@@ -13,9 +13,10 @@ beforeTest(function(){
 
 
 test("Test to login to home page", function () {
-    // Code to open the pricefrontend
-	var driver = createDriver("http://www.google.com",
-                            "1280x800","chrome");
+    // Code to open the google
+
+    var driver =session.get("driver");
+    
 	
 	dumpPage({
     driver: driver, 
