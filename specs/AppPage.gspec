@@ -4,5 +4,5 @@
 = Main section =
      @on desktop
          page:
-           image file screenshots/app/page.png
+           image file screenshots/page.png
 
